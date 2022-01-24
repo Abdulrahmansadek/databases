@@ -20,7 +20,7 @@ Also make time to do lesson 6-12 from the following:
 ## 2. **MySQL exercises**
 
 > You will need to do some research to solve these exercises. All the concepts necessary to solve
-these exercises are NOT covered in the reading material. This is on purpose.
+> these exercises are NOT covered in the reading material. This is on purpose.
 
 This week we'll practice some more with writing SQL queries using JavaScript. For each exercise make a separate `.js` file; make sure to give it an appropriate name!
 
@@ -28,21 +28,21 @@ This week we'll practice some more with writing SQL queries using JavaScript. Fo
 
 1. Create a table, called `authors`. Give it the following fields: `(author_no(Primary Key), author_name, university, date_of_birth, h_index, gender)`
 2. Write a query that adds a column called `mentor` to `authors` table that references the column `author_no`.
-For integrity add a `foreign key` on this column.
+   For integrity add a `foreign key` on this column.
 
 **Exercise 2: Relationships**
 
 1. Create another table, called `research_Papers` with the following fields: `(paper_id, paper_title, conference, publish_date, ...)`
 2. What is the relationship between Authors and Research papers ? Make necessary changes to `authors` and
-`research_Papers` tables and add more tables if necessary.
+   `research_Papers` tables and add more tables if necessary.
 3. Read exercises 3 and 4 and then add information (insert rows) of 15 authors and 30 research papers such that
-all queries in the exercises  3 and 4 will return some answers
+   all queries in the exercises 3 and 4 will return some answers
 
 **Exercise 3: Joins**
 
 1. Write a query that prints names of all `authors` and their corresponding `mentors`.
 2. Write a query that prints all columns of `authors` and their published `paper_title`.
-If there is an author without any `research_Papers`, print the information of that `author` too.
+   If there is an author without any `research_Papers`, print the information of that `author` too.
 
 **Exercise 4: Aggregate Functions**
 
@@ -54,7 +54,6 @@ Write some queries to retrieve the following rows:
 4. Sum of the research papers of the authors per university.
 5. Minimum and maximum of the h-index of all authors per university.
 
-
 ## **SUBMIT YOUR HOMEWORK!**
 
 After you've finished your todo list it's time to show us what you got! The homework that needs to be submitted is the following:
@@ -65,4 +64,4 @@ Upload both to your forked Databases repository in GitHub. Make a pull request t
 
 > Forgotten how to upload your homework? Go through the [guide](../hand-in-homework-guide.md) to learn how to do this again.
 
-_Deadline Tuesday 23.59 CET_
+_Deadline Saturday 23.59 CET_
