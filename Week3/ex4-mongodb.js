@@ -33,7 +33,7 @@ async function seeDatabase() {
     const cityByCode = await client
       .db("world")
       .collection("city")
-      .find({ $and: [{ country_code: "SYR" }, { name: "damascus" }] })
+      .find({ $and: [{ country_code: "SYR" }, { name: "Damascus" }] })
       .toArray();
     console.log(cityByCode);
 

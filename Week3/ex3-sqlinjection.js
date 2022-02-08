@@ -19,3 +19,5 @@ function getPopulation(country, Name, Code, cb) {
 
 getPopulation(`country`, `Netherlands`, `NLD`, console.log);
 connection.end();
+// example for an SQL injection
+//getPopulation('country','Syria',"SYR' OR' 1=1",console.log)
